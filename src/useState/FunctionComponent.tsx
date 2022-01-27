@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const FunctionComponent = () => {
   const [counter, setCounter] = useState(0);
-  console.log("Function Component", counter);
+  console.log("Function Component UseState", counter);
 
   const increase = () => {
     setCounter(counter + 1);
@@ -10,7 +10,7 @@ const FunctionComponent = () => {
 
   return (
     <div className="box">
-      <h2>Function Component</h2>
+      <h2>Function Component UseState</h2>
       <p>Counter: {counter}</p>
       <button onClick={() => increase()}>Increase</button>
     </div>

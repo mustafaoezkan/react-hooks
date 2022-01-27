@@ -26,10 +26,10 @@ class ClassComponent extends React.Component {
   };
 
   render() {
-    console.log("Class Component", this.state.counter);
+    console.log("Class Component UseState", this.state.counter);
     return (
       <div className="box">
-        <h2>Class Component</h2>
+        <h2>Class Component UseState</h2>
         <p>Counter: {this.state.counter}</p>
         <button onClick={() => this.increase()}>Increase</button>
       </div>
