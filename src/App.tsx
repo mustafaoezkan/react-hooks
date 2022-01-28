@@ -3,12 +3,14 @@ import ClassComponent from "./useState/ClassComponent";
 import FunctionComponent from "./useState/FunctionComponent";
 import ClassComponentEffect from "./useEffect/ClassComponent";
 import FunctionComponentEffect from "./useEffect/FunctionComponent";
+import ContextAPI from "./contextAPI/Context";
 
 function App() {
   const [showComponent, setShowComponent] = useState(true);
   return (
     <div className="App">
-      <ClassComponent></ClassComponent>
+      <ContextAPI></ContextAPI>
+      {/* <ClassComponent></ClassComponent>
       <FunctionComponent></FunctionComponent>
       <button onClick={() => setShowComponent(!showComponent)}>
         Toggle Component
@@ -18,7 +20,7 @@ function App() {
       ) : (
         <div></div>
       )}
-      <ClassComponentEffect></ClassComponentEffect>
+      <ClassComponentEffect></ClassComponentEffect> */}
     </div>
   );
 }
