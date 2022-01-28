@@ -4,12 +4,14 @@ import FunctionComponent from "./useState/FunctionComponent";
 import ClassComponentEffect from "./useEffect/ClassComponent";
 import FunctionComponentEffect from "./useEffect/FunctionComponent";
 import ContextAPI from "./contextAPI/Context";
+import UseReducerDemo from "./useReducer/useReducerDemo";
 
 function App() {
   const [showComponent, setShowComponent] = useState(true);
   return (
     <div className="App">
-      <ContextAPI></ContextAPI>
+      <UseReducerDemo></UseReducerDemo>
+      {/* <ContextAPI></ContextAPI> */}
       {/* <ClassComponent></ClassComponent>
       <FunctionComponent></FunctionComponent>
       <button onClick={() => setShowComponent(!showComponent)}>
