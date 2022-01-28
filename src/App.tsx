@@ -5,12 +5,14 @@ import ClassComponentEffect from "./useEffect/ClassComponent";
 import FunctionComponentEffect from "./useEffect/FunctionComponent";
 import ContextAPI from "./contextAPI/Context";
 import UseReducerDemo from "./useReducer/useReducerDemo";
+import UseRefDemo from "./useRef/UseRefDemo";
 
 function App() {
   const [showComponent, setShowComponent] = useState(true);
   return (
     <div className="App">
-      <UseReducerDemo></UseReducerDemo>
+      <UseRefDemo></UseRefDemo>
+      {/* <UseReducerDemo></UseReducerDemo> */}
       {/* <ContextAPI></ContextAPI> */}
       {/* <ClassComponent></ClassComponent>
       <FunctionComponent></FunctionComponent>
